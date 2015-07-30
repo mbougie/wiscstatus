@@ -1,0 +1,1 @@
+ogr2ogr -f "GeoJSON" V:\scoweb\lcfr\d3project\main_v2\data\counties.geojson PG:"host=144.92.235.143 user=mbougie password=wiscland2 dbname=main" -sql "SELECT county_nam,ST_Simplify(geom,.01)as geom FROM boundary.boundary_wi_county_bnds_4152" -t_srs "epsg:4152"

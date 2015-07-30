@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<!-- Set a style for our worldshape-data -->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="css/accordian.css">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+<div id="center">
+<div class="navtitle">Field Needs Collection Status</div>
+<div class="chart_title" style="color:#0A0A0A">% collected:</div>
+<ul class="accordion outside" >
+   <li><div  class = 'level1 grassland' style="border-color:  #D94701" id = "GRASSLAND">grassland</div>
+        <ul class="accordion">
+        
+          <li><div class = "level2" style="border-color: #D94701" id = 'Forage'>Forage</div>
+              <ul>
+                  <li class = 'last' id = 'Hay'>Hay (forage)</li>
+                  <li class = 'last' id = 'Pasture'>Pasture (forage)</li>
+              </ul>
+          </li>
+          
+          <li><div class = "level2 bottom" style="border-color: #D94701" id = 'Idle_Grass'>Idle Grass</div>
+              <ul>
+                  <li class = 'last' id = 'Cool_Grass'>Cool-season Grass</li>
+                  <li class = 'last' id = 'Warm_Grass'>Warm-season Grass</li>
+              </ul>
+          </li>
+
+        </ul>
+    </li>
+    <li><div  class = 'level1 forest' style="border-color: #238B45" id = "forest">forest</div>
+        <ul class="accordion forest">
+        
+          <li><div class = "level2" style= "border-color: #238B45" id = 'coniferous'>Coniferous Forest</div>
+              <ul>
+                  <li class = 'last' id = 'Fir_Spruce'>Fir Spruce (FS)</li>
+                  <li class = 'last' id = 'Jack_Pine'>Jack Pine (PJ)</li>
+                  <li class = 'last' id = 'Hemlock_HWood'>Hemlock Hardwoods (H)</li>
+              </ul>
+          </li>
+          
+          <li><div class = "level2 bottom" style= "border-color: #238B45" id = 'deciduous'>Broad-leaved Deciduous Forest</div>
+              <ul>
+                  <li class = 'last' id = 'Aspen_highland'>Aspen (A)</li>
+                  <li class = 'last' id = 'Paper_Birch'>Paper Birch (BW)</li>
+                  <li class = 'last' id = 'Red_Maple_highland'>Red Maple (MR)</li>
+                  <li class = 'last' id = 'Pin_Black_Oak'>N. Pin Oak, Black Oak</li>
+                  <li class = 'last' id = 'Walnut'>Walnut</li>
+                  <li class = 'last' id = 'North_HWood_Other'>Northern Hardwoods - Other</li>
+         
+              </ul>
+          </li>
+
+        </ul>
+    </li>
+     <li><div class = "level1 wetland" style="border-color: #6A51A3" id = "wetland">Wetland</div>
+        <ul class="accordion">
+            <li><div class = "level2" style="border-color: #6A51A3" id = 'Aquatic_Bed'>Aquatic Bed (Floating herbaceous)</div>
+               
+            <li><div class = "level2" style="border-color: #6A51A3" id = 'wet_meadow'>Emergent/Wet Meadow</div>
+                <ul>
+                    <li class = 'last' id = 'Cattails'>Cattails</li>
+                    <li class = 'last' id = 'Phragmites'>Phragmites</li>
+                    <li class = 'last' id = 'Reed_Canary'>Reed canary (lowland & upland)</li>
+                    <li class = 'last' id = 'Wet_Meadow_other'>Emergent/Wet Meadow - Other</li>
+                </ul>
+            </li>
+
+            <li><div class = "level2" style="border-color: #6A51A3" id = 'Scrub_Shrub'>Lowland scrub/ shrub</div>
+                <ul>
+              
+                    <li class = 'last' id = 'Buckthorn_low'>Buckthorn (lowland)</li>
+                    <li class = 'last' id = 'Bdleaf_Dec_lowland_shrub_other'>Broad-leaved dec. lowland shrub-Other</li>
+      
+                    <li class = 'last' id = 'Needle_leaf'>Needle-leaved lowland shrub</li>
+                </ul>
+            </li>
+
+            <li><div class = "level2 bottom" style="border-color: #6A51A3" id = 'Forested_wetland'>Forested wetland</div>
+                <ul>
+                
+                    <li class = 'last' id = 'White_Cedar'>White Cedar (CW)</li>
+                    <li class = 'last' id = 'Black_Spruce'>Black Spruce (SB)</li>
+           
+                    <li class = 'last' id = 'Coniferous_other'>Coniferous forested wetland - Other</li>
+                    <li class = 'last' id = 'Aspen_lowland'>Aspen (A)</li>
+                    <li class = 'last' id = 'Red_Maple_lowland'>Red Maple (MR)</li>
+                  
+                    <li class = 'last' id = 'Green_Ash'>Green Ash</li>
+                    <li class = 'last' id = 'Silver_Maple'>Silver Maple</li>
+                    <li class = 'last' id = 'Bottom_HWoods_other'>Bottomland Hardwoods - Other</li>
+                  
+                    <li class = 'last' id = 'Swamp_HWoods_other'>Swamp Hardwoods - Other</li>
+                </ul>
+            </li>
+
+        </ul>
+    </li>
+    <li><div class = "level1 shrubland" style="border-color: #CB181D" id = "SHRUBLAND">SHRUBLAND</div>
+        <ul class="accordion">
+            <li><div class = "level2" style="border-color: #CB181D" id = 'Buck_honey_upland'>Buckthorn/honeysuckle (upland)</div>
+               
+            <li><div class = "level2" style="border-color: #CB181D" id = 'Shrubland_other'>Shrubland - Other</div>
+        </ul>
+    </li>
+</ul>
+</div>
+
+  <!-- implementation of the hosted D3- and TopoJson js-libraries -->
+<!-- <script src="lib/topojson.v1.min.js"></script> -->
+<script src="lib/d3.js"></script>
+<script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+<script src="lib/jquery-1.7.1.min.js"></script>
+<!-- <script src="js/bootstrap.min.js"></script> -->
+
+  <script src="http://d3js.org/topojson.v0.min.js"></script>
+<script src="lib/colorbrewer.js"></script>
+<script src="js/accordian.js"></script>
+<script src="js/main.js"></script>
+
+<script src="js/colorScale.js"></script>
+
+ 
+</body>
+</html>

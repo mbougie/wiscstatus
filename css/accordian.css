@@ -1,0 +1,196 @@
+CONTRL!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+
+
+@font-face {
+    font-family: 'BebasNeueRegular';
+    src: url('fonts/BebasNeue-webfont.eot');
+    src: url('fonts/BebasNeue-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/BebasNeue-webfont.woff') format('woff'),
+         url('fonts/BebasNeue-webfont.ttf') format('truetype'),
+         url('fonts/BebasNeue-webfont.svg#BebasNeueRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}   
+
+
+/*
+span {
+ width: 30px;
+ height: 15px;
+ background-color: green;   
+}*/
+
+
+ul.accordion.outside {
+
+ margin: 0px;
+ padding:0px;
+}
+
+
+
+
+.accordion {
+    cursor:context-menu;
+    font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
+    
+    /*list-style: none;*/
+    padding: 0 0 0 0;
+    width: 245px;
+    float: left;
+    /*padding-left: 20px;*/
+    /*background-color: red;*/
+}
+.accordion .level1{
+        /*height: 30px;
+    line-height: 33px;*/
+    display: block;
+    font-size: 18px;
+    border-left-style: solid;
+   /* border-color: blue;*/
+   /*background-color: blue;*/
+    border-width:21px;
+
+  /*  padding-top:5px;*/
+    font-weight: lighter;
+    margin-top: 5px;
+    /*cursor: pointer;*/
+    text-align: left;
+    color: white;
+
+}    
+
+
+
+ul { list-style: none; }
+
+
+
+
+.accordion ul {
+  
+    list-style: none;
+    width: 350px;
+    padding: 0 0 0 0;
+    display: none;
+    /*background-color: green;*/
+   
+}
+
+.accordion ul li {
+
+    font-family: Constantia, Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+    /*font-family: Constantia, Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;*/
+    font-weight: normal;
+    cursor: auto;
+    color: white;
+    background-color: #0A0A0A;
+    /*background-color: purple;*/
+    padding: 0 0 0 0px;
+
+
+}
+.accordion ul div{
+     cursor:context-menu;
+  /*margin-top: 5px;*/
+  
+    /*background-color: green;*/
+  font-size: 16px;
+  text-align: left; 
+
+/*    border-right-style: solid;
+    border-top-style: solid;*/
+
+     /*text-decoration-width: 3px;*/
+ border-bottom-style: solid;
+
+ border-bottom-width: 3px;
+display: inline-block;
+   /*width: 120px;*/
+    /*background-color-opacity:0.5;*/
+    /*border-top-width: 4px;*/ 
+    
+}
+
+/*.bottom { margin-bottom: 9px;}*/
+
+
+
+.accordion .last {
+
+ /*border-color: #A63603;*/
+   /*border-left-style: solid;*/
+/*    border-color: red;*/
+     background-color: #0A0A0A;
+     text-align: left;
+ /*background-color: yellow;*/
+   /*padding-bottom:5px;*/
+   margin-left:0px;
+   /*margin-top: 10px;*/
+
+ 
+    /*border-width:3px;*/
+       /*margin-bottom:15px;   */
+}
+
+
+
+.accordion .last{
+     cursor:context-menu;
+font-family: Constantia, Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+text-decoration: none;
+  font-size: 14px;
+  color:white; 
+
+   }
+
+
+
+/*#level1_seperate1{
+ margin-top:30px;   
+}*/
+
+
+/*.last_bottom{
+ margin-bottom:5px;   
+}
+
+.level2_bottom{
+ margin-bottom:30px;   
+}
+*/
+
+.accordion.forest  {border-color: green;}
+ .wetland .accordion div {border-color: purple;}
+
+
+
+
+
+
+
+/* span { 
+    background-color: #0A0A0A; 
+}*/
+
+
+/*#FirSpruce {
+border-style: solid;
+border-width: 2px;
+border-color: cyan;  
+}*/
+
+/*.accordion a {
+    text-decoration: none;
+    color: white
+}
+.accordion a:onclick {
+    text-decoration: underline;
+}*/
+
+/*span{ 
+    line-height:20px; 
+}
+*/
